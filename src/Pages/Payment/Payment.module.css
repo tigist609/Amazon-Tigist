@@ -34,6 +34,8 @@
 }
 .flex div{
   height: aut !important;
+  border: none;
+  border-radius: 0px;
 }
 .payment__card__container{
   max-width: 350px;

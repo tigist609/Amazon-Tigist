@@ -1,60 +1,4 @@
-/* .cart-container{
-    display:flex;
-    align-items: flex-start;
-    gap: 20px;
-    margin-top: 20px;
-    padding: 0 20px;
-}
-.inner.cart-container{
-    padding: 20px;
-    flex: 3;
-}
-.inner.cart-container h2,
-.inner.cart-container h3 {
-    padding: 10px;
-}
-.inner.cart-container hr{
-margin: 10px;
-}
-.subtotal-container{
-    flex: 1;
-    padding: 20px;
-    min-width: 280px;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    border: 1px solid rgb(193,193,193);
-    background-color: rgb(242,241,241);
-    border-radius: 5px;
-    position: sticky;
-    top: 120px;
-}
-.subtotal-container a:hover{
-    background: var(--primary-shade);
-    
-}
 
-.subtotal-container div,
-.subtotal-container span{
-    display: flex;
-    gap: 20px;
-}
-@media screen and (max-width:968px){
-    .cart-container{
-        flex-direction: column;
-        order: 1;
-    }
-    .subtotal-container {
-        width: 100%;
-        position: static;
-}
-} */
-
-
-
-/* Container holds both cart items and subtotal */
 .cart-container {
     display: flex;
     justify-content: center;
@@ -141,6 +85,8 @@ margin: 10px;
   .cart-container-amount > div:first-child {
     flex: 1; 
     min-width: 0; 
+    border: none;
+    border-radius: 0px;
   }
   
   .cart-container-amount > .button-amount {
